@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Casa de Bernarda Alba</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>A CASA DE BERNARDA ALBA</h1>
+      <p>"O silêncio é a casa que Bernarda constrói."</p>
+      <a href="#sobre" class="btn">01 de dezembro — saiba mais</a>
+    </div>
+  </header>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre a Peça</h2>
+    <p>
+      Após a morte do marido, Bernarda impõe luto rigoroso a suas filhas, confinando-as em casa e silenciando seus desejos. 
+      Entre paredes que sussurram repressão, o silêncio se torna a linguagem mais alta.
+    </p>
+  </section>
+
+  <section class="elenco">
+    <h2>Elenco e Produção</h2>
+    <div class="nomes" id="elenco"></div>
+    <p class="producao">Produção: Cléber Lima</p>
+  </section>
+
+  <section class="local">
+    <h2>Local</h2>
+    <p><strong>Anfiteatro Unifaccamp</strong> — Prédio D</p>
+    <p>01 de dezembro de 2025</p>
+    <p>Entrada gratuita — sujeito à lotação</p>
+  </section>
+
+  <footer>
+    <p>© 2025 | Produção de Cléber Lima | Elenco Unifaccamp</p>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h3 id="nome"></h3>
+      <p id="email"></p>
+      <h4 id="personagem"></h4>
+      <p id="descricao"></p>
+      <button class="close" onclick="fecharModal()">Fechar</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
