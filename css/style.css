@@ -10,6 +10,8 @@ body {
 /* HERO */
 .hero {
   position: relative;
+  /* CORREÇÃO: Alterado de caminho absoluto para caminho relativo.
+     Se o CSS está em 'css/style.css', o caminho para 'img/alba1_opt.jpg.webp' deve ser '../img/alba1_opt.jpg.webp' */
   background-image: url('../img/alba1_opt.jpg.webp');
   background-size: cover;
   background-position: center;
