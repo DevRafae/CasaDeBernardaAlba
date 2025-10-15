@@ -10,7 +10,8 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background-image: url('../img/alba1_opt.jpg.webp');
+  background-image: url('background-image: url('/img/alba1_opt.jpg.webp');
+');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
