@@ -10,8 +10,7 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background-image: url('background-image: url('/img/alba1_opt.jpg.webp');
-');
+  background-image: url('/img/alba1_opt.jpg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -20,8 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
+
 
 .overlay {
   position: absolute;
